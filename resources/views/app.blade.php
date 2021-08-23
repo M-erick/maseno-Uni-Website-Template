@@ -13,8 +13,8 @@
 
     <!-- include image below-->
     <div>
-        <img src="" alt="Maseno image"
-        class="h-10   object-cover max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <img src="https://picsum.photos/seed/picsum/200" alt="Maseno image"
+        class=" w-full h-20   object-cover mx-auto    bg-center bg-no-repeat bg-cover bg-fixed">
     </div>
     <!-- Include nav bar here-->
         <div>

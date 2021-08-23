@@ -194,7 +194,7 @@
                                     class="flex items-center p-4 bg-white border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
 
                                     <div id="body" class="flex flex-col ">
-                                        <div class="flex mt-2">
+                                        <div class="mt-2">
                                             <img alt="mountain"
                                                 class=" img-style "
                                                 src="https://picsum.photos/seed/picsum/200" />
