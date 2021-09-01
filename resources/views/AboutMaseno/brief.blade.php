@@ -24,8 +24,8 @@
 
                 </div>
                 <div class="w-2/3   bg-white md:mr-5 md:my-2">
-                    <div class="bg-gray-200 border px-3  mt-2">
-                        <span class="text-center"><strong>You are here:</strong>maseno in Brief</span>
+                    <div class="bg-gray-200 text-gray-700 mt-2 ml-2 mr-2">
+                        <span><strong>You are here:</strong>General Information</span>
 
                     </div>
                     <div class=" p-2 text-center">
