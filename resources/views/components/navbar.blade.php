@@ -4,22 +4,20 @@
         <img src="https://picsum.photos/seed/picsum/200" alt="Maseno image"
             class=" w-full h-10   object-cover mx-auto    bg-center bg-no-repeat bg-cover bg-fixed">
     </div>
-    <!-- Include nav bar here-->
     <div>
-        <!-- This example requires Tailwind CSS v2.0+ -->
+
         <!--background color to be mediumseagreen-->
         <nav class="bg-green-500 shadow-lg">
             <div class="max-w-6xl mx-auto px-4">
                 <div class="flex  justify-between items-center space-x-7">
-                    <!--Website Logo-->
+                    <!--Website Logo Maseno Logo -->
                     <div>
                         <a href="" class="flex items-center py-4 px-2">
                             <img src="#" alt="Logo" class="h-8 w-8 mr-2">
 
                         </a>
                     </div>
-                    <!--NAVBAR color not decided yet
-             -->
+                  
 
                     <div class="px-4 cursor-pointer md:hidden" id="burger">
                         <a href="">Menu</a>

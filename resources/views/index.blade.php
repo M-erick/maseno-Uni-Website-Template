@@ -1,109 +1,16 @@
 @extends('app')
+
+@prepend('ccs-styles')
+    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+
+@endprepend
 @section('content')
     <div class="bg-gray-200 flex flex-wrap ">
         <div class="  w-2/3 ">
 
-
-            <div>
-                <!DOCTYPE html>
-                <html lang="en">
-
-                <head>
-                    <title>Tailwind CSS Carousel</title>
-                    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-
-                    <style>
-                        .carousel-open:checked+.carousel-item {
-                            position: static;
-                            opacity: 100;
-                        }
-
-                        .carousel-item {
-                            -webkit-transition: opacity 0.6s ease-out;
-                            transition: opacity 0.6s ease-out;
-                        }
-
-                        #carousel-1:checked~.control-1,
-                        #carousel-2:checked~.control-2,
-                        #carousel-3:checked~.control-3 {
-                            display: block;
-                        }
-
-                        .carousel-indicators {
-                            list-style: none;
-                            margin: 0;
-                            padding: 0;
-                            position: absolute;
-                            bottom: 2%;
-                            left: 0;
-                            right: 0;
-                            text-align: center;
-                            z-index: 10;
-                        }
-
-                        #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
-                        #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
-                        #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
-                            color: #2b6cb0;
-                            /*Set to match the Tailwind colour you want the active one to be */
-                        }
-
-                    </style>
-
-                </head>
-
-                <body class="bg-white font-sans leading-normal tracking-normal  ">
+           <x-slides/>
 
 
-                    <div class="carousel relative shadow-2xl  mt-5">
-                        <div class="carousel-inner relative overflow-hidden w-full ">
-                            <!--Slide 1-->
-                            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
-                                hidden="" checked="checked">
-                            <div class="carousel-item absolute opacity-0 " style="height:50vh;">
-                                <div class="block h-full w-full bg-indigo-500 text-white text-5xl text-center">Slide 1
-                                </div>
-                            </div>
-
-
-                            <!--Slide 2-->
-                            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
-                                hidden="">
-                            <div class="carousel-item absolute opacity-0" style="height:50vh;">
-                                <div class="block h-full w-full bg-orange-500 text-white text-5xl text-center">Slide 2
-                                </div>
-                            </div>
-
-                            <!--Slide 3-->
-                            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
-                                hidden="">
-                            <div class="carousel-item absolute opacity-0" style="height:50vh;">
-                                <div class="block h-full w-full bg-green-500 text-white text-5xl text-center">Slide 3
-                                </div>
-                            </div>
-
-                            <!-- Add additional indicators for each slide-->
-                            <ol class="carousel-indicators">
-                                <li class="inline-block mr-3">
-                                    <label for="carousel-1"
-                                        class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                                </li>
-                                <li class="inline-block mr-3">
-                                    <label for="carousel-2"
-                                        class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                                </li>
-                                <li class="inline-block mr-3">
-                                    <label for="carousel-3"
-                                        class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                                </li>
-                            </ol>
-
-                        </div>
-                    </div>
-
-
-                </html>
-            </div>
             <div>
                 <!-- unsolved placement-->
 
@@ -122,8 +29,7 @@
                     <section class="container px-5 py-3 mx-auto">
                         <div class="grid gap-2 mb-3 md:grid-cols-1 lg:grid-cols-2">
                             <!-- Card 1 -->
-                            <div
-                                class="card dark:bg-gray-800">
+                            <div class="card dark:bg-gray-800">
 
                                 <div id="body" class="flex flex-col ">
                                     <div class="flex mt-2">
@@ -140,8 +46,7 @@
                             </div>
 
                             <!-- Card 2 -->
-                            <div
-                                class="card dark:bg-gray-800">
+                            <div class="card dark:bg-gray-800">
 
                                 <div id="body" class="flex flex-col ">
                                     <div class="flex mt-2">
@@ -157,8 +62,8 @@
                                 </div>
                             </div>
                             <!-- Card 3 -->
-                            <div
-                                class="card dark:bg-gray-800"><!--Darkmode activation-->
+                            <div class="card dark:bg-gray-800">
+                                <!--Darkmode activation-->
 
                                 <div id="body" class="flex flex-col ">
                                     <div class="flex mt-2">
@@ -177,8 +82,8 @@
                                 </div>
                             </div>
                             <!-- Card 4 -->
-                            <div
-                                class="card dark:bg-gray-800"><!--Darkmode activation-->
+                            <div class="card dark:bg-gray-800">
+                                <!--Darkmode activation-->
 
                                 <div id="body" class="flex flex-col ">
                                     <div class="mt-2">
@@ -201,7 +106,7 @@
 
                     </div>
                 </div>
-               <div class="text-justify ">
+                <div class="text-justify ">
 
                     <h3 class=" border-gray-300 p-2 font-semibold text-justify">QUICK LINKS</h3>
                     <div class=" grid grid-cols-3">
@@ -220,8 +125,8 @@
                                         <!--Align the div's in grid form -->
                                         <h3 class="font-semibold text-green-200">PROJECTS</h3>
                                         <a href="">SPADE</a><br>
-                                        <a href="" >climate smart fish </a><br>
-                                        <a href="" >creating postgraduate </a><br>
+                                        <a href="">climate smart fish </a><br>
+                                        <a href="">creating postgraduate </a><br>
                                     </div>
                                     <div>
                                         <h3 class="font-semibold text-green-200">RESOURCES</h3>
@@ -254,7 +159,7 @@
 
                         <div class="col-span-1">
                             <!--Insert image here-->
-                            <img src="" alt="" class="">
+                            <img src="" alt="" class="___class_+?67___">
                             <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
                                 laborum
                                 accusantium. Id, molestiae voluptate in, quia aspernatur

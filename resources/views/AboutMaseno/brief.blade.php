@@ -1,6 +1,6 @@
 @extends('app')
 @section('content')
-    <div class="   bg-gray-100  ">
+    <div class="   container bg-gray-100  ">
 
             <div class="flex ">
                 <div class="w-1/3  p-2  md:ml-5">
