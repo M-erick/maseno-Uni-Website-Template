@@ -1,4 +1,4 @@
-<div class="bg-gray-200 p-2  border-4 shadow-md border-gray-200">
+<div class="bg-gray-200 p-2  border shadow-md border-gray-300">
     <!-- Happiness is not something readymade. It comes from your own actions. - Dalai Lama -->
     <h4 class="border-b border-gray-200 text-left ">Contacts </h4>
     <div class="text-left font-semibold">
