@@ -31,7 +31,7 @@
 
             </div>
             <div class="col-span-2  bg-white md:mr-5 md:my-2  pt-3 p-2">
-                <div class="bg-gray-200 text-gray-700 mt-2 ml-2 mr-2">
+                <div class="bg-gray-200 text-gray-700 md:mt-2 md:pl-2 md:py-1 md:ml-2 md:mr-2">
                     <span><strong>You are here:</strong>Admission</span>
 
                 </div>
@@ -53,7 +53,7 @@
                 </div>
                 <div >
                     <h2 class="font-semibold  text-left">History</h2>
-                    <img src="#" alt="maseno gate " class=" p-2 float-right">
+                    <img src="#" alt="maseno gate " class=" p-2 h-32 float-right">
 
 
                     <span class="  p-2 leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio

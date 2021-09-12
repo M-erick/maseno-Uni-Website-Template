@@ -72,7 +72,7 @@
 
 
             </div>
-            <div class="col-span-1  p-2 pt-3">
+            <div class="col-span-1   md:mr-2 p-2 pt-3">
 
 
 

@@ -5,7 +5,8 @@
 
 @endprepend
 @section('content')
-    <div class="bg-gray-200 flex flex-wrap ">
+    <div class="
+     flex flex-wrap ">
         <div class="  w-2/3 ">
 
            <x-slides/>
@@ -159,12 +160,11 @@
 
                         <div class="col-span-1">
                             <!--Insert image here-->
-                            <img src="" alt="" class="___class_+?67___">
-                            <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
-                                laborum
-                                accusantium. Id, molestiae voluptate in, quia aspernatur
-                                repellendus mollitia incidunt quod suscipit quisquam ab porro deserunt qui tenetur,
-                                voluptatibus repellat!</p>
+                            <figure>
+                                <div class=" p-2 border m-2 border-gray-400   w-full  h-32 ">
+                                    <img src="#" alt="maseno gate " class=" overflow-hidden">
+                                </div>
+                            </figure>
 
                         </div>
                     </div>

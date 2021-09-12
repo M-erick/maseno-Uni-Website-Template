@@ -1,6 +1,9 @@
 @extends('app')
 
 @section('content')
+<div class="container">
+
+
 
     <div class=" w-auto m-auto grid grid-cols-3 gap-3 bg-gray-100">
         <div class="col-span-1  p-2 pt-3">
@@ -19,10 +22,10 @@
                 odit beatae dolor asperiores explicabo in totam vitae sunt rem porro incidunt impedit similique
                 soluta.</span>
             <div>
-                <x-table />
+                <x-tables />
             </div>
 
         </div>
     </div>
-
+</div>
 @endsection

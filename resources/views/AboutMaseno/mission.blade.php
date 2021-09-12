@@ -10,7 +10,8 @@
             <div class="col-span-2 bg-white md:m-2 ">
 
                 <div class="bg-gray-200 text-gray-700 mt-2 ml-2 mr-2">
-                    <span class="text-center"><strong>You are here:</strong>General Information</span>
+                    <span class="text-center
+                    "><strong>You are here:</strong>General Information</span>
 
                 </div>
 

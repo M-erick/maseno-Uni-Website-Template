@@ -1,5 +1,5 @@
-<div class="carousel relative shadow-2xl md:p-3 md:mt-5">
-    <div class="carousel-inner relative overflow-hidden w-full ">
+<div class="">
+    <div class=" ">
         <!--Slide 1-->
         <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
             checked="checked">

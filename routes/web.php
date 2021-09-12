@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'index')->name('home');
 
+
 Route::prefix('maseno')->group(function () {
 
     Route::view('/about', 'page.about')->name('aboutMaseno');
@@ -36,6 +37,16 @@ Route::prefix('maseno')->group(function () {
     Route::view('/staff', 'page.staff')->name('staff');
     Route::view('/Contacts', 'page.contacts')->name('contacts');
 
+
     Route::view('/university-Council', 'AboutMaseno.council')->name('council');
+    Route::view('/Service-Charter', 'AboutMaseno.service')->name('service');
+
+    Route::view('/maseno and vision', 'AboutMaseno.mission')->name('mission');
+    Route::view('/brief', 'AboutMaseno.brief')->name('brief');
+
+
+
+
+
 
 });

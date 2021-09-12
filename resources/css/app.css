@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav-component{
-    @apply text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
-}
+
 .nav-btn{
     @apply text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium;
 }
 .img-style{
     @apply w-full h-32 rounded-md border-2 border-gray-300  overflow-hidden;
+}
+.card{
+    @apply flex items-center p-4 bg-white border-2 border-gray-200 rounded-lg shadow-sm ;
+}
+.nav-list{
+    @apply text-gray-300   hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
+}
+.link-style{
+    @apply uppercase p-2 text-justify  text-white text-sm   shadow-md bg-yellow-700 hover:bg-yellow-800   border border-gray-300 ;
 }
 

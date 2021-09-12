@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="container ">
-        <div class="bg-gray-200 text-gray-700 mt-2 ml-2 mr-2">
+        <div class="bg-gray-200 text-gray-700md:pl-2 md:py-1 md:ml-2 md:mr-2">
             <span><strong>You are here:</strong>Contacts</span>
 
         </div>
