@@ -5,7 +5,7 @@
             <div class="flex ">
                 <div class="w-1/3  p-2  md:ml-5">
 
-                        <div class=" border  mb-2">
+                        <div class=" border   border-gray-400 mb-2">
                             <h4 class="border-b border-gray-200 text-semibold p-2 bg-gray-50">The Road to Higher Education
                             </h4>
 
@@ -24,31 +24,30 @@
 
                 </div>
                 <div class="w-2/3   bg-white md:mr-5 md:my-2">
-                    <div class="bg-gray-200 text-gray-700 mt-2 ml-2 mr-2">
+                    <div class="bg-gray-200 text-gray-700 md:mt-2 md:pl-2 md:py-1 md:ml-2 md:mr-2">
                         <span><strong>You are here:</strong>General Information</span>
 
                     </div>
+
                     <div class=" p-2 text-center">
                         <img src="student" alt="student" class="img-style border-2">
                         <strong>Administration Block,Maseno University</strong>
 
                     </div>
-                    <div class="p-2 leading-relaxed">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                    <div >
+                        <p class="p-2 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
                             adipisci! Dignissimos excepturi sed quasi nulla minus dicta quia? Quod sint magni incidunt ipsam
                             omnis obcaecati cum maxime ducimus ullam amet.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-                            adipisci! Dignissimos excepturi sed quasi nulla minus dicta quia? Quod sint magni incidunt ipsam
-                            omnis obcaecati cum maxime ducimus ullam amet.</p>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-                            adipisci! Dignissimos excepturi sed quasi nulla minus dicta quia? Quod sint magni incidunt ipsam
-                            omnis obcaecati cum maxime ducimus ullam amet.</p>
-
-
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                            <p class="p-2 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
                                 adipisci! Dignissimos excepturi sed quasi nulla minus dicta quia? Quod sint magni incidunt ipsam
                                 omnis obcaecati cum maxime ducimus ullam amet.</p>
+                                <p class="p-2 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                                    adipisci! Dignissimos excepturi sed quasi nulla minus dicta quia? Quod sint magni incidunt ipsam
+                                    omnis obcaecati cum maxime ducimus ullam amet.</p>
+
+
+
+
 
 
 

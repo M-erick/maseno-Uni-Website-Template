@@ -10,7 +10,8 @@
     @stack('ccs-styles')
 </head>
 
-<body >
+{{-- width 100% --}}
+<body  class="w-full" >
     <!--navbar-->
   <x-navbar2/>
     <div>
@@ -27,7 +28,7 @@
 
 
 
-
+  
 
 
 
